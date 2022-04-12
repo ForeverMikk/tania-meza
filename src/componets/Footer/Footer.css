@@ -1,0 +1,117 @@
+.footer {
+    background: #3C1226;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 2rem 0;
+}
+.footer .hashtag, .footer .tania-meza, .footer .suscribete {
+    width: 33%;
+}
+
+.hashtag h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.hashtag p {
+    font-family: 'Bond-4f';
+}
+
+.footer .tania-meza img {
+    height: 9rem;
+}
+.footer .tania-meza h3 {
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+.footer .tania-meza a {
+    color: #fff;
+    margin: 0 0.5rem;
+}
+.footer .tania-meza a svg {
+    height: 1.1rem;
+}
+.footer .tania-meza p {
+    font-family: 'Bond-4f';
+    font-size: 0.8rem;
+}
+
+.footer .suscribete .title span{ 
+    text-transform: uppercase;
+    letter-spacing: 0.38rem;
+}
+.footer .suscribete .title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer .suscribete {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .suscribete input, .footer .suscribete .suscribete-button {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer .suscribete .suscribete-button {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: #9D6B98;
+    border: 1px #9D6B98 solid;
+}
+
+.footer .suscribete p {
+    font-size: smaller;
+}
+
+.footer .tania-meza .binaria-link {
+    text-decoration: none;
+}
+
+.footer .suscribete .sub-text {
+    padding: 0 2.5rem;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+    .footer {
+        flex-direction: column-reverse;
+        /* align-items: center; */
+    }
+    .footer .hashtag, .footer .tania-meza, .footer .suscribete {
+        width: 100%;
+    }
+    .footer .suscribete {
+        text-align: center;
+    }
+    .footer .suscribete input, .footer .suscribete button {
+        margin: 0.5rem 0;
+    }
+    .footer .suscribete input {
+        padding: 1.5rem 4rem;
+    }
+    .footer .suscribete p {
+        font-size: 0.9rem;
+    }
+    .footer .tania-meza div {
+        margin: 1.5rem 0;
+    }
+    .footer .tania-meza .binaria-link {
+        margin-top: 2rem;
+        font-size: smaller;
+    }
+    
+}

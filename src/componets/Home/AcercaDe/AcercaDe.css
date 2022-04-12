@@ -1,0 +1,125 @@
+.acerca-de {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #1d1d1f96, #2f2f30cc), url(./../../../assets/img/acerca-de.png) no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.acerca-de .texto {
+  width: 50%;
+  font-family: 'Bond-4f';
+  text-align: center;
+  line-height: 2rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.acerca-de h2 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  width: 1050px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 10px;
+  height: 100%;
+  margin-left: -3px;
+  background: #BE95B9;
+  z-index: 1;
+}
+
+.timeline li {
+  padding: 1em 0;
+}
+
+.timeline li .date {
+  color: #98968C;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li .text {
+  color: #fff;
+}
+
+.timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.direction-left, .direction-right {
+  font-family: 'Bond-4f';
+  display: flex;
+  align-items: center;
+}
+.direction-left img, .direction-right img{
+  margin: 0 2rem;
+  border-radius: 50%;
+}
+.direction-left {
+  position: relative;
+  width: 500px;
+  float: left;
+  text-align: right;
+}
+.direction-right {
+  position: relative;
+  width: 500px;
+  float: right;
+}
+
+
+@media screen and (max-width: 960px) {
+  .acerca-de .texto {
+    width: 80%;
+  }
+  .acerca-de .texto .p2{
+    display: none;
+  }
+  .timeline:before {
+    background: none;
+  }
+  .timeline {
+    width: 100%;
+  }
+
+  .timeline li .date {
+    font-size: 1.2rem;
+  }
+  .timeline li .text {
+    font-size: 0.95rem;
+  }
+  .timeline li .img img {
+    height: 4rem;
+    width: auto;
+    margin: 0 1rem;
+  }
+
+  .direction-left, .direction-right {
+    float: none !important;
+    width: 300px;
+  }
+}

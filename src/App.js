@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import AOS from 'aos';
+
+import Navbar from './componets/Navbar/Navbar';
+import Home from './componets/Home/Home';
+import Footer from './componets/Footer/Footer';
+import MisCausas from './componets/MisCausas/MisCausas';
+import Noticias from './componets/Noticias/Noticias';
+import Eventos from './componets/Eventos/Eventos';
+import Contactanos from './componets/Contactanos/Contactanos';
+import BackToTop from './componets/BackToTop/BackToTop';
+
+import 'aos/dist/aos.css'
+// import ScrollHandler from './componets/ScrollHandler/ScrollHandler';
+
 import './App.css';
 
 function App() {
+
+  AOS.init()
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+          <Router>
+            <Navbar />
+            
+            <Routes>
+                <Route exact path='/' element={<Home />} />
+                <Route path='/home' element={<Home />} />
+                <Route path='/noticias' element={<Noticias />} />
+                <Route path='/mis-causas' element={<MisCausas />} />
+                <Route path='/eventos' element={<Eventos />} />
+                <Route path='/contactanos' element={<Contactanos />} />
+            </Routes>
+            
+            <Footer />
+            <BackToTop />
+          </Router>
     </div>
   );
 }

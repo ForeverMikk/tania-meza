@@ -1,0 +1,18 @@
+.scroll-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #7C2D74;
+    color: #fff;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.scroll-top:hover {
+    background: #9D6B98;
+    transition: all 0.5s ease-in-out;
+}

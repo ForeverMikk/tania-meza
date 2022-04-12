@@ -1,0 +1,133 @@
+.contactanos {
+    margin-top: 5rem;
+    background: #F6F3E4;
+    text-align: center;
+    padding: 5rem 0 10rem;
+}
+
+.contactanos .subtitle, .contactanos .title, .contactanos p {
+    color: #31312E;
+}
+.contactanos .subtitle {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.3rem;
+}
+.contactanos .title {
+    padding: 1rem 0;
+    margin: 0;
+    font-family: 'Bond-4f';
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+.contactanos p {
+    font-family: 'Bond-4f';
+    color: #31312E;
+    font-size: 0.955rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+
+
+/************ Formulario ************/
+.contactanos form {
+    background: #9D6B98;
+    margin: 0 13rem;
+    color: #fff;
+}
+.contactanos form h3 {
+    padding-top: 2rem;
+    font-family: 'Bond-4f';
+    font-size: 1rem;
+}
+.contactanos form h2 {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 00.5rem;
+}
+
+/* Checkbox */
+.contactanos form .checkbox {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 6rem 2rem;
+}
+.contactanos form .checkbox input{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.contactanos form .checkbox label {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bond-4f';
+    font-size: 1.2rem;
+}
+
+/* Inputs */
+.contactanos .inputs {
+    display: flex;
+    flex-direction: column;
+}
+.contactanos .inputs .first {
+    /* padding: 5rem 0 0; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.contactanos .inputs .first .input-1, .contactanos .inputs .first .input-2  {
+    background: #fff;
+    width: 100%;
+}
+.contactanos .input-1 input, .contactanos .input-2 input {
+    width: 42.7%;
+    height: 3rem;
+    background: #C5C2B6;
+    padding: 0 2rem;
+    color: #31312E;
+    font-family: 'Bond-4f';
+    font-size: 1rem;
+    border: 1px solid #fff;
+}
+.contactanos .second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+.contactanos .second textarea {
+    width: 74%;
+    height: 4rem;
+    border: 1px solid #fff;
+    background: #C5C2B6;
+}
+.contactanos .second button {
+    width: 25%;
+    height: 4.3rem;
+    border: 1px solid #fff;
+    background: #9D6B98;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .contactanos {
+        padding: 5rem 0 5rem;
+    }
+    .contactanos form {
+        margin: 0;
+        padding: 0 2rem 4rem;
+    }
+    .contactanos form .checkbox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contactanos .input-1 input, .contactanos .input-2 input {
+        width: 80%;
+    }
+}

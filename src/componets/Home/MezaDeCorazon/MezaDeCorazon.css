@@ -1,0 +1,75 @@
+.meza-de-corazon {
+    height: fit-content;
+    display: flex;
+}
+.meza-img {
+  width: 50%;
+  height: 54.1rem;
+  background: url(./../../../assets/img/img7.webp) no-repeat;
+  background-size: cover;
+}
+.meza-img img {
+    height: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+.meza-video {
+    width: 50%;
+    height: 54.1rem;
+    background: #B33672;
+}
+.meza-video .text {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: #fff;
+    animation: fadeIn 2s ease-in-out;
+}
+.meza-video .video {
+    margin-top: 5rem;
+}
+.meza-video iframe{
+    width: 669px;
+    height: 376px;
+}
+
+.meza-video .media{
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+.media a{
+    margin: 0 0.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+.media a svg {
+    margin-top: 2rem;
+    height: 1.5rem;
+    width: auto;
+}
+
+
+@media screen and (max-width: 960px) {
+    .meza-de-corazon {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .meza-img {
+        height: 50vh;
+        width: auto;
+    }
+    .meza-video {
+        height: 100vh;
+        width: 100%;
+    }
+    .meza-video iframe{
+        width: 100%;
+    }
+    .meza-video .text {
+        font-size:3rem;
+    }
+    .meza-video .video {
+        margin-top: 2rem;
+    }
+}

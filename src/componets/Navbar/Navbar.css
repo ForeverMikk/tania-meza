@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Bukhari';
+    src: url('./../../assets/fonts/Bukhari\ Script.woff');
+}
+
+/* nav {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    overflow:  hidden !important;
+} */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background: #3C1226;
+    color: #fff;
+    z-index: 1000;
+}
+.nav-logo {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-logo span{
+    font-family: 'Bukhari', sans-serif;
+    font-size: 2rem;
+}
+.nav-logo p {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+}
+
+/* Nav Menu */
+.nav-menu {
+    display: flex;
+}
+.nav-menu li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+.nav-menu li .nav-links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*  MENU ICON  */
+.menu-icon {
+    background: none;
+    border: none;
+    color: #fff;
+    display: none;
+}
+
+/* Nav Buttons */
+.nav-buttons{
+    display: flex;
+}
+.nav-buttons a, .nav-buttons button {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: large;
+}
+.nav-button {
+    font-size: large;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.nav-button:nth-child(1) {
+    background: #7C2D74;
+}
+.nav-button:nth-child(2) {
+    background: #9D6B98;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .navbar {
+        width: 100vw;
+        background: #3C1226;
+    }
+    .nav-logo{
+        position: absolute;
+        top: 0.5rem;
+        left: -1.5rem;
+        transform: translate(25% ,50%);
+        height: 0.5rem;
+    }
+    .nav-logo span {
+        font-size: 1.5rem;
+    }
+    .nav-logo p {
+        font-size: 0.8rem;
+        letter-spacing: 0.3rem;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -1rem;
+        transform: translate(-100%, 60%);
+        cursor: pointer;
+    }
+    .nav-menu, .nav-menu li {
+        padding: 0;
+        margin: 0;
+    }
+    .nav-menu {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 5rem;
+        left: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+    .nav-menu.active {
+        visibility: visible;
+        background: #3C1226;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 10;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 2rem 0;
+        width: 100%;
+        display: table;
+    }
+    .nav-links:hover {
+        background-color: #7C2D74;
+        border-radius: 0;
+    }
+    .nav-buttons {
+        display: none;
+    } 
+}

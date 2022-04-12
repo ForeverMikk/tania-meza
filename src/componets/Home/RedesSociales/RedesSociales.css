@@ -1,0 +1,24 @@
+.redes-sociales {
+    background: #9D6B98;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    padding-bottom: 2.5rem;
+}
+
+.redes-sociales h2 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.redes-sociales .logos a{
+    color: #fff;
+    margin: 0 0.5rem;
+    
+}
+
+.redes-sociales .logos a svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}

@@ -1,0 +1,31 @@
+.home-section {
+    margin-top: 5rem;
+}
+
+.noticias-home {
+    text-align: center;
+    padding: 0 12rem;
+    background: #F6F3E4;
+    padding-bottom: 5rem;
+}
+
+.noticias .subtitle, .noticias .title {
+    color: #31312E;
+}
+
+.noticias-home .subtitle {
+    margin: 0;
+    padding-top: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.noticias-home .title {
+    padding: 1rem 0;
+    margin: 0;
+    margin-bottom: 5rem;
+    font-family: 'Bond-4f';
+    font-size: 3.5rem;
+    font-weight: 300;
+}

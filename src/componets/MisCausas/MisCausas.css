@@ -1,0 +1,94 @@
+.mis-causas {
+    margin-top: 5rem;
+}
+
+.mis-causas .vision {
+    /* height: 155vh; */
+    background: linear-gradient(to top, #56565a96, #737377cc), url(./../../assets/img/reloj.jpg) no-repeat top center;
+    /* background: url(./../../assets/img/reloj.jpg) no-repeat; */
+    background-position: center;
+    background-size: cover;
+}
+
+.mis-causas .vision .first {
+    margin: 0 17.5rem;
+    padding: 5rem 0;
+    padding-bottom: 3rem;
+    display: flex;
+}
+.mis-causas .vision .first img {
+    height: 500px;
+}
+
+.mis-causas .vision .first .text {
+    color: #fff;
+    margin-left: 5rem;
+}
+
+.mis-causas .causas h2 {
+    margin: 0;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.mis-causas .vision .first p {
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: larger;
+    font-family: 'Bond-4f';
+}
+.mis-causas .vision .second {
+    font-family: 'Bond-4f';
+    font-size: larger;
+    margin: 0 17.5rem;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+
+.mis-causas .causas {
+    color: #fff;
+    background: #9D6B98;
+}
+
+.mis-causas .causas .videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mis-causas .causas .video {
+    margin: 1rem 2rem;
+    padding: 0 2rem;
+    background: #E04D66;
+    text-align: center;
+}
+.mis-causas .causas .video p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: #E04D66;
+    padding: 1rem;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    
+    .mis-causas .vision .first {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mis-causas .vision .first .text {
+        margin: 1rem 2rem;
+    }
+    .mis-causas .vision .second {
+        display: none;
+    }
+}
