@@ -1,5 +1,6 @@
 .home-section {
     margin-top: 5rem;
+    position: relative;
 }
 
 .noticias-home {
@@ -28,4 +29,23 @@
     font-family: 'Bond-4f';
     font-size: 3.5rem;
     font-weight: 300;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .home-section {
+        margin-top: 0;
+    }
+    .noticias-home {
+        padding: 0 1rem 5rem 1rem;
+    }
+    .noticias-home .news {
+        flex-direction: column;
+        align-items: center;
+    }
+    .noticias-home .news .img img{
+        height: 15rem;
+        width: auto;   
+    }
 }

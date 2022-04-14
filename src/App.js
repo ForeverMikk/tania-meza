@@ -20,23 +20,25 @@ function App() {
   AOS.init()
 
   return (
-    <div>
-          <Router>
-            <Navbar />
-            
-            <Routes>
-                <Route exact path='/' element={<Home />} />
-                <Route path='/home' element={<Home />} />
-                <Route path='/noticias' element={<Noticias />} />
-                <Route path='/mis-causas' element={<MisCausas />} />
-                <Route path='/eventos' element={<Eventos />} />
-                <Route path='/contactanos' element={<Contactanos />} />
-            </Routes>
-            
-            <Footer />
-            <BackToTop />
-          </Router>
-    </div>
+    <>
+    <BackToTop />
+      <div>
+            <Router>
+              <Navbar />
+              
+              <Routes>
+                  <Route exact path='/' element={<Home />} />
+                  <Route path='/home' element={<Home />} />
+                  <Route path='/noticias' element={<Noticias />} />
+                  <Route path='/mis-causas' element={<MisCausas />} />
+                  <Route path='/eventos' element={<Eventos />} />
+                  <Route path='/contactanos' element={<Contactanos />} />
+              </Routes>
+              
+              <Footer />
+            </Router>
+      </div>
+    </>
   );
 }
 
