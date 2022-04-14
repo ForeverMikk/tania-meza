@@ -20,8 +20,6 @@ function App() {
   AOS.init()
 
   return (
-    <>
-    <BackToTop />
       <div>
             <Router>
               <Navbar />
@@ -36,9 +34,9 @@ function App() {
               </Routes>
               
               <Footer />
+              <BackToTop />
             </Router>
       </div>
-    </>
   );
 }
 
