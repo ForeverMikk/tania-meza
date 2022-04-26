@@ -6,28 +6,28 @@
 }
 
 .home-carousel .card1{
-    background: url(./../../../assets/img/home/img1.jpg);
-    background-position: center;
+    background: url(./../../../assets/img/home/img1.jpg) no-repeat center;
+    background-size: cover;
 }
 .home-carousel .card2{
-    background: url(./../../../assets/img/home/img2.jpg);
-    background-position: center;
+    background: url(./../../../assets/img/home/img2.jpg) no-repeat center;
+    background-size: cover;
 }
 .home-carousel .card3{
-    background: url(./../../../assets/img/home/img3.jpg);
-    background-position: center;
+    background: url(./../../../assets/img/home/img3.jpg) no-repeat center;
+    background-size: cover;
 }
 .home-carousel .card4{
-    background: url(./../../../assets/img/home/img4.jpg);
-    background-position: center;
+    background: url(./../../../assets/img/home/img4.jpg) no-repeat center;
+    background-size: cover;
 }
 .home-carousel .card5{
-    background: url(./../../../assets/img/home/img5.jpg);
-    background-position: center;
+    background: url(./../../../assets/img/home/img5.jpg) no-repeat center;
+    background-size: cover;
 }
 .home-carousel .card6{
-    background: url(./../../../assets/img/home/img6.jpg);
-    background-position: center;
+    background: url(./../../../assets/img/home/img6.jpg) no-repeat center;
+    background-size: cover;
 }
 
 @media screen and (max-width: 960px) {

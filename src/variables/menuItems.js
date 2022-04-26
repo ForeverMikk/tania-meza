@@ -9,11 +9,11 @@ export const menuItems = [
         url: '/noticias',
         className: 'nav-links'
     },
-    {
-        title: 'Eventos',
-        url: '/eventos',
-        className: 'nav-links'
-    },
+    // {
+    //     title: 'Eventos',
+    //     url: '/eventos',
+    //     className: 'nav-links'
+    // },
     {
         title: 'Contáctanos',
         url: '/contactanos',

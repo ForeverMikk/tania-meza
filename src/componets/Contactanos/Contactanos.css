@@ -107,6 +107,7 @@
     background: #C5C2B6;
 }
 .contactanos .second button {
+    cursor: pointer;
     width: 25%;
     height: 4.3rem;
     border: 1px solid #fff;

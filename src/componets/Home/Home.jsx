@@ -2,7 +2,7 @@ import React from 'react'
 
 import MezaCarousel from './MezaCarousel/MezaCarousel';
 import MezaDeCorazon from './MezaDeCorazon/MezaDeCorazon';
-import Conoceme from './Conoceme/Conoceme';
+// import Conoceme from './Conoceme/Conoceme';
 import AcercaDe from './AcercaDe/AcercaDe';
 import Trayectoria from './Trayectoria/Trayectoria';
 import { News } from '../Noticias/Noticias';

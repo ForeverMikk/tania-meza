@@ -9,7 +9,8 @@ const Contactanos = () => {
             <h2 className='title' data-aos='fade-up' data-aos-duration="850">¡Cuéntame tus ideas!</h2>
             <p>Para prensa y consultas generales, por favor proporciona tus datos de contacto:</p>
             
-            <form action="" data-aos='fade-up' data-aos-duration="850">
+            <form action="https://formsubmit.co/af2effbb8a45fc9ab364c0171e962cc5" method='post' data-aos='fade-up' data-aos-duration="850">
+            {/* <form action="https://formsubmit.co/michaelmolina679@gmail.com" method='post' data-aos='fade-up' data-aos-duration="850"> */}
                 <h3>Pachuca Hidalgo Col. Centro</h3>
                 <h2>Elige Una Opción de Contacto</h2>
                 
@@ -49,7 +50,7 @@ const Contactanos = () => {
 
                     <div className="second">
                         <textarea name="mensaje" id="mensaje"></textarea>
-                        <button>Envíar</button>
+                        <button type='submit'>Envíar</button>
                     </div>
 
                 </div>
