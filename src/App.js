@@ -6,7 +6,7 @@ import Home from './componets/Home/Home';
 import Footer from './componets/Footer/Footer';
 import MisCausas from './componets/MisCausas/MisCausas';
 import Noticias from './componets/Noticias/Noticias';
-import Eventos from './componets/Eventos/Eventos';
+// import Eventos from './componets/Eventos/Eventos';
 import Contactanos from './componets/Contactanos/Contactanos';
 import BackToTop from './componets/BackToTop/BackToTop';
 
