@@ -81,7 +81,7 @@
     flex-direction: column;
 }
 .contactanos .inputs .first .input-1, .contactanos .inputs .first .input-2  {
-    background: #fff;
+    background: #C5C2B6;
     width: 100%;
 }
 .contactanos .input-1 input, .contactanos .input-2 input {
@@ -89,29 +89,40 @@
     height: 3rem;
     background: #C5C2B6;
     padding: 0 2rem;
-    color: #31312E;
+    color: #313131;
     font-family: 'Bond-4f';
     font-size: 1rem;
-    border: 1px solid #fff;
+    border: none;
+}
+.contactanos .input-1 input::placeholder, .contactanos .input-2 input::placeholder {
+    color: #31312E;
 }
 .contactanos .second {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: #fff;
+    background: #C5C2B6;
 }
 .contactanos .second textarea {
+    font-family: 'Bond-4f';
     width: 74%;
-    height: 4rem;
-    border: 1px solid #fff;
+    height: 3rem;
+    border: none;
+    color: #31312E;
     background: #C5C2B6;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+}
+.contactanos .second textarea::placeholder {
+    color: #31312E;
 }
 .contactanos .second button {
     cursor: pointer;
     width: 25%;
-    height: 4.3rem;
-    border: 1px solid #fff;
-    background: #9D6B98;
+    height: 5rem;
+    color: #fff;
+    border: none;
+    background: #3C1226;
 }
 
 

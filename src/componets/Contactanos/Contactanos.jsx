@@ -49,7 +49,7 @@ const Contactanos = () => {
                     </div>
 
                     <div className="second">
-                        <textarea name="mensaje" id="mensaje"></textarea>
+                        <textarea placeholder='Escribe aqui tu mensaje' name="mensaje" id="mensaje"></textarea>
                         <button type='submit'>Envíar</button>
                     </div>
 
