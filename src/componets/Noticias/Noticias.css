@@ -26,19 +26,30 @@
     font-weight: 300;
 }
 
- .news {
+.news {
     display: flex;
+    /* justify-content: center; */
     border: 1px solid grey;
     margin-top: 2rem;
 }
 
- .news .data {
+.news .img {
+    height: 100%;
+    width: 45%;
+}
+.news .img img {
+    height: 100%;
+    width: auto;
+}
+
+.news .data {
     padding: 2rem;
     text-align: left;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 }
  .news .text h2 {
     font-family: 'Times New Roman', Times, serif;
