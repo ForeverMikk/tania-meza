@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 
-import { menuItems } from '../../variables/menuItems'
 import './Navbar.css'
+import { menuItems } from '../../variables/menuItems'
 
 const Navbar = () => {
 

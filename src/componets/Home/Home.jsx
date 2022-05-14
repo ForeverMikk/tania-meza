@@ -1,17 +1,16 @@
 import React from 'react'
 
+import './Home.css'
+import '../Noticias/Noticias.css'
 import MezaCarousel from './MezaCarousel/MezaCarousel';
 import MezaDeCorazon from './MezaDeCorazon/MezaDeCorazon';
-// import Conoceme from './Conoceme/Conoceme';
 import AcercaDe from './AcercaDe/AcercaDe';
 import Trayectoria from './Trayectoria/Trayectoria';
-import { News } from '../Noticias/Noticias';
 import RedesSociales from './RedesSociales/RedesSociales';
+import { News } from '../Noticias/Noticias';
 
 import { noticiasItems } from '../../variables/noticiasItem';
 
-import './Home.css'
-import '../Noticias/Noticias.css'
 
 const Home = () => {
 
