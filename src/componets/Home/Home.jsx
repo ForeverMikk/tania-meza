@@ -23,7 +23,7 @@ const Home = () => {
             {/* <Conoceme /> */}
             <AcercaDe />
             <Trayectoria />
-            <div className='noticias-home'>
+            <div className='noticias'>
                 <h3 className='subtitle' data-aos='fade-up' data-aos-duration="850"> Noticias de Tania Meza</h3>
                 <h2 className='title' data-aos='fade-up' data-aos-duration="850">Notas Relevantes</h2>
                 
