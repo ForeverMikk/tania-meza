@@ -2,6 +2,16 @@ import React from 'react';
 
 import './Contactanos.css'
 
+
+function selectOnlyThis(id) {
+    let myCheckbox = document.getElementsByClassName('mycheck');
+    Array.prototype.forEach.call(myCheckbox, function(el){
+        el.checked = false;
+    });
+    id.checked = true;
+}
+
+
 const Contactanos = () => {
     return (
         <section className="contactanos">
@@ -16,22 +26,22 @@ const Contactanos = () => {
                 
                 <div className="checkbox">
                     <label htmlFor="prensa">
-                        <input type="checkbox" name="prensa" id="prensa" /> 
+                        <input type="radio" name="mycheck" id="prensa" /> 
                         Prensa
                     </label>
                 
                     <label htmlFor="contacto">
-                        <input type="checkbox" name="contacto" id="contacto" /> 
+                        <input type="radio" name="mycheck" id="contacto" /> 
                         Contacto
                     </label>
                 
                     <label htmlFor="volun">
-                        <input type="checkbox" name="volun" id="volun" /> 
+                        <input type="radio" name="mycheck" id="volun" /> 
                         Voluntariado
                     </label>
                 
                     <label htmlFor="otro">
-                        <input type="checkbox" name="otro" id="otro" /> 
+                        <input type="radio" name="mycheck" id="otro" /> 
                         Otro
                     </label>
                 </div>
