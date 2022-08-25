@@ -1,9 +1,9 @@
 export const menuItems = [
-    {
-        title: 'Mis Causas',
-        url: '/mis-causas',
-        className: 'nav-links'
-    },
+    // {
+    //     title: 'Mis Causas',
+    //     url: '/mis-causas',
+    //     className: 'nav-links'
+    // },
     {
         title: 'Noticias',
         url: '/noticias',
