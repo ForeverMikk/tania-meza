@@ -3,13 +3,13 @@ import React from 'react';
 import './Contactanos.css'
 
 
-function selectOnlyThis(id) {
-    let myCheckbox = document.getElementsByClassName('mycheck');
-    Array.prototype.forEach.call(myCheckbox, function(el){
-        el.checked = false;
-    });
-    id.checked = true;
-}
+// function selectOnlyThis(id) {
+//     let myCheckbox = document.getElementsByClassName('mycheck');
+//     Array.prototype.forEach.call(myCheckbox, function(el){
+//         el.checked = false;
+//     });
+//     id.checked = true;
+// }
 
 
 const Contactanos = () => {
