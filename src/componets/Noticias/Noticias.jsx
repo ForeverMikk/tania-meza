@@ -1,8 +1,7 @@
 import React from 'react'
 
-import { noticiasItems } from '../../variables/noticiasItem'
-
 import './Noticias.css'
+import { noticiasItems } from '../../variables/noticiasItem'
 
 const Noticias = () => {
     return(

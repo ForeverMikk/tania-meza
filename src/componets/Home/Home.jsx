@@ -1,17 +1,16 @@
 import React from 'react'
 
+import './Home.css'
+import '../Noticias/Noticias.css'
 import MezaCarousel from './MezaCarousel/MezaCarousel';
 import MezaDeCorazon from './MezaDeCorazon/MezaDeCorazon';
-// import Conoceme from './Conoceme/Conoceme';
 import AcercaDe from './AcercaDe/AcercaDe';
 import Trayectoria from './Trayectoria/Trayectoria';
-import { News } from '../Noticias/Noticias';
 import RedesSociales from './RedesSociales/RedesSociales';
+import { News } from '../Noticias/Noticias';
 
 import { noticiasItems } from '../../variables/noticiasItem';
 
-import './Home.css'
-import '../Noticias/Noticias.css'
 
 const Home = () => {
 
@@ -24,7 +23,7 @@ const Home = () => {
             {/* <Conoceme /> */}
             <AcercaDe />
             <Trayectoria />
-            <div className='noticias-home'>
+            <div className='noticias'>
                 <h3 className='subtitle' data-aos='fade-up' data-aos-duration="850"> Noticias de Tania Meza</h3>
                 <h2 className='title' data-aos='fade-up' data-aos-duration="850">Notas Relevantes</h2>
                 

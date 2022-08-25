@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-// import img7 from './../../../assets/img/img7.webp'
 import './MezaDeCorazon.css'
+import imageDefault from './../../../assets/img/acerca-de.png'
 
 const MezaDeCorazon = () => {
 
@@ -19,13 +19,14 @@ const MezaDeCorazon = () => {
                 </div>
 
                 <div className="video" data-aos='fade-left' data-aos-duration="850">
-                    <iframe 
+                    <img src={imageDefault} alt="" />
+                    {/* <iframe 
                         src="https://www.youtube.com/embed/_Tx1WpIWdW0" 
                         title="YouTube video player" 
                         frameBorder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen
-                    ></iframe>
+                    ></iframe> */}
                 </div>
 
                 <div className="media">

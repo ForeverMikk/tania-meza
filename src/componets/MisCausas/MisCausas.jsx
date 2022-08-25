@@ -1,13 +1,8 @@
 import React from 'react'
 
-import video1 from './../../assets/video/SeguridadVF.mp4'
-import video2 from './../../assets/video/DerechosHumanos.mp4'
-import video3 from './../../assets/video/Perros.mp4'
-import video4 from './../../assets/video/Economia.mp4'
-import video5 from './../../assets/video/Sustentabilidad.mp4'
+import './MisCausas.css'
 import tania from './../../assets/img/tania.jpeg'
 
-import './MisCausas.css'
 
 const MisCausas = () => {
     return(
@@ -31,37 +26,27 @@ const MisCausas = () => {
 
                 <div className="videos" data-aos='fade-up' data-aos-duration="850">
                     <div className="video">
-                        <video height='550px' width='auto' controls>
-                            <source src={video1} type="video/mp4" />
-                        </video>
+                        <iframe width="309" height="550" src="https://www.youtube.com/embed/U_tymSEJ78s" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p>PACHUCA SEGURO</p>
                     </div>
 
                     <div className="video">
-                        <video height='550px' width='auto' controls>
-                            <source src={video2} type="video/mp4" />
-                        </video>
+                        <iframe width="309" height="550" src="https://www.youtube.com/embed/1uACZ7iiJas" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p>DERECHOS HUMANOS</p>
                     </div>
 
                     <div className="video">
-                        <video height='550px' width='auto' controls>
-                            <source src={video3} type="video/mp4" />
-                        </video>
+                        <iframe width="309" height="550" src="https://www.youtube.com/embed/jym1VSRvtFw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p>PERRITOS CALLEJEROS</p>
                     </div>
 
                     <div className="video">
-                        <video height='550px' width='auto' controls>
-                            <source src={video4} type="video/mp4" />
-                        </video>
+                        <iframe width="309" height="550" src="https://www.youtube.com/embed/ew2oKv9yYgI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p>EMPRENDIMIENTO E INNOVACIÓN</p>
                     </div>
 
                     <div className="video">
-                        <video height='550px' width='auto' controls>
-                            <source src={video5} type="video/mp4" />
-                        </video>
+                        <iframe width="309" height="550" src="https://www.youtube.com/embed/CaMXJohRyXc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         <p>DESARROLLO SUSTENTABLE</p>
                     </div>
                 </div>

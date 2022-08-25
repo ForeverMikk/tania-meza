@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { eventosItems } from '../../variables/eventosItem'
 import './Eventos.css'
+import { eventosItems } from '../../variables/eventosItem'
 
 const Eventos = () => {
 

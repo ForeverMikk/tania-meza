@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import './Conoceme.css'
 import sobre from './../../../assets/img/sobre-mi.png'
 import causas from './../../../assets/img/causas.png'
 // import aportar from './../../../assets/img/aportar.png'
 import suscribete from './../../../assets/img/suscribete.png'
 import voluntariado from './../../../assets/img/voluntariado.png'
 
-import './Conoceme.css'
 const scrollToElement = (element) => {
     const scrolledElement = document.getElementById(element)
 
